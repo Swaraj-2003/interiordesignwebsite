@@ -18,8 +18,8 @@ const Navigation = () => {
             <Link to='/'><img src={logoimg} alt="logo" /></Link>
         </div>
         <ul className='nav-list-links'>
-            <li><NavLink to='/home' className="nav-link">Home </NavLink></li>
-            <li><NavLink to='' className="nav-link">About </NavLink></li>
+            <li><NavLink to='/' className="nav-link">Home </NavLink></li>
+           
             {/* <li><NavLink to='/service' className="nav-link">Services </NavLink></li> */}
             <li><Dropdown className='services-drop'>
                 {/* <Dropdown.Toggle className="nav-link" id="dropdown-basic">
