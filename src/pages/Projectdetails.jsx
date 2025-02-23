@@ -18,7 +18,7 @@ const Projectdetails = () => {
                         <div className="section-title text-center">
                             <h1>Project Details</h1>
                             <h4 className="explore-btn">
-                                <Link to='/home' className="home-btn">Home  </Link> / Project Details
+                                <Link to='/' className="home-btn">Home  </Link> / Project Details
                             </h4>
                         </div>
                     </div>

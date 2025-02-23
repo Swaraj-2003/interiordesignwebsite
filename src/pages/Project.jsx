@@ -16,7 +16,7 @@ const Project = () => {
                 <div className="section-title text-center">
                     <h1>Projects</h1>
                     <h4 className="explore-btn">
-                        <Link to='/home' className="home-btn">Home  </Link> / Projects
+                        <Link to='/' className="home-btn">Home  </Link> / Projects
                     </h4>
                 </div>
             </div>

@@ -45,7 +45,7 @@ const Modernfurniture = () => {
                         <div className="section-title text-center">
                             <h1>Modern Furniture</h1>
                             <h4 className="explore-btn">
-                                <Link to='/home' className="home-btn">Home  </Link> / Modern Furniture
+                                <Link to='/' className="home-btn">Home  </Link> / Modern Furniture
                             </h4>
                         </div>
                     </div>
