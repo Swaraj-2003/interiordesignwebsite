@@ -85,7 +85,7 @@ const Footercode = () => {
           </div>
         </div>
         <div className="footer-border"></div>
-        <p className='footer-end'>Copyright © 2025 All Rights Reserved / Created by Maithili Ingale</p>
+        <p className='footer-end'>Copyright © 2025 All Rights Reserved / Designed by Inspired Interior Group </p>
       </div>
     </div>
   </div>
