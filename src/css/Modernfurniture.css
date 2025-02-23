@@ -1,0 +1,148 @@
+
+
+.furniture-wrap{
+    padding: 80px 0px;
+}
+.collections{
+    padding: 80px 0px;
+    background-color: #F8F8F8;
+}
+.collection-img img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1.15;
+}
+.collection-para{
+    letter-spacing: 0.95px;
+}
+.furniture-head{
+    font-size: 25px;
+}
+.collection-items{
+    margin-top: 50px;
+}
+.collection-list-items{
+    padding: 80px 0px;
+}
+.collection-items{
+    display: inline;
+}
+.collection-item-content{
+    color: #192324;
+    padding: 50px;
+}
+.collection-item-info{
+    margin-bottom: 30px;
+}
+.collection-item-content h3{
+    margin-top: 10px;
+    font-size: 16px;
+    letter-spacing: 0.96px;
+    
+}
+.collection-link{
+    margin-top: 10px;
+    color: #7C877F;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+}
+.collection-iteam-content p{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.collection-item-content p span{
+    text-decoration:line-through ;
+    display:inline-block;
+    margin-right: 5px;
+}
+.collection-imgs img{
+    width: 200px;
+    height: 200px;
+}
+.collection-imgs{
+    padding: 50px;
+    background-color: #F8F8F8;
+}
+.collection-items li{
+    margin:10px 0px 0px 0px;
+}
+.decor-hub{
+    padding: 80px 0px;
+}
+.decore-img img{
+    border-radius: 10px;
+}
+.decore-sub-content{
+    margin-top: 30px;
+}
+.decore-sub p{
+    margin-top: 20px;
+}
+.decore-sub-para{
+    margin-bottom: 10px;
+}
+.furniture-list{
+    background-color: #192324;
+    padding: 80px 0px;
+    color: #fff;
+}
+.funiture-details{
+    box-shadow: 0 5px 10px rgba(206, 206, 216, 0.4);
+    margin-bottom: 40px;
+}
+.light-color{
+    color: #fff;
+}
+.furniture-data{
+    padding:15px 0px ;
+}
+.furniture-data h3{
+    text-transform:uppercase;
+    font-size: 14px;
+    color: #7C877F;
+}
+.furniture-data .furniture-link{
+    font-size: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 6px;
+}
+.product-tag .sale{
+    background-color: #5E5E5E;
+    color: #F8F8F8;
+}
+.sale span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-like{
+    background-color: #5E5E5E;
+    color: #F8F8F8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+@media(min-width:992px){
+    .collection-imgs img{
+        width: 400px;
+        height: 400px;
+    }
+    .collection-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .collection-items li{
+        margin:10px 10px 0px 0px;
+    }
+}

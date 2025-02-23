@@ -1,0 +1,107 @@
+.project-details-wrap{
+    padding: 80px 0px;
+}
+.project-details-box{
+    margin-right: 0px;
+    border: 1px solid #EAF0EC;
+    padding: 30px 10px;
+    margin-bottom: 60px;
+}
+.project-details-sidebar{
+    position: sticky;
+    top: 30px;
+    margin-bottom: 60px;
+}
+.help .section-sub-data{
+    margin-bottom: 30px;
+}
+.project-details-box .project-details-list{
+    margin-bottom: 20px;
+}
+
+.help .project-sub-details p{
+    color: #000;
+}
+.project-details-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.project-details-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #EAF0EC;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-sub-details h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.project-sub-details p{
+    color: #7C877F;
+    margin: 0;
+}
+.project-details-img{
+    margin-bottom: 40px;
+}
+.project-details-img img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 0.6;
+}
+.project-detaild-info{
+    margin-bottom: 60px;
+}
+.project-details-gallery-imgs ul{
+    text-align: center;
+}
+.project-details-gallery-imgs ul li img{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 0.99;
+}
+.project-details-gallery-imgs ul li{
+    margin: 0px 0px 10px 0px;
+}
+.project-details-gallery-imgs li{
+    display: inline-block;
+}
+@media(min-width:768px){
+    .project-details-sidebar{
+        margin-right: 30px;
+    }
+    .project-details-gallery-imgs ul{
+        display: flex;
+        align-items: center;
+    }
+    .project-details-gallery-imgs ul li img{
+        width: 178px;
+    }
+    .project-details-gallery-imgs ul li{
+        margin: 0px 10px 10px 0px;
+    }
+}
+@media(min-width:992px){
+    .project-details-gallery-imgs ul li img{
+        width: 150px;
+        height: 150px;
+    }
+    .project-details-gallery-imgs ul li{
+        margin: 0px 10px 10px 0px;
+    }
+}
+@media(min-width:1200px){
+    .project-details-gallery-imgs ul li img{
+        width: 197px;
+        height: 197px;
+    }
+    .project-details-box{
+        padding: 40px;
+    }
+}
